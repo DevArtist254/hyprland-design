@@ -1,0 +1,25 @@
+{
+  "position": "top",
+  "margin-top": 14,
+  "margin-bottom": 0,
+  "layer": "top",
+  "height": 16,
+  "margin-left": 0,
+  "margin-right": 0,
+  "spacing": 0,
+  "include": [
+    "~/.config/waybar/modules.json"
+  ],
+  "modules-left": [
+    "wlr/taskbar"
+  ],
+  "modules-right": [
+    "network",
+    "temperature",
+    "cpu",
+    "memory",
+    "disk",
+    "pulseaudio",
+    "clock"
+  ]
+}

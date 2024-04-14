@@ -1,3 +1,4 @@
 {
-    "editor.fontFamily": "'Droid Sans Mono', 'ttf-font-awesome', monospace"
+  "editor.fontFamily": "'Droid Sans Mono', 'ttf-font-awesome', monospace",
+  "eslint.codeActionsOnSave.mode": "problems"
 }

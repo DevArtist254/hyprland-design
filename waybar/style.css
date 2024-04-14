@@ -1,0 +1,97 @@
+@import "colors-pywal.css";
+/* //Hello world
+//ll
+//ll */
+* {
+  font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial,
+    sans-serif;
+  border: none;
+  border-radius: 0px;
+}
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 0px solid #fff;
+  color: #fff;
+  background: transparent;
+  transition-property: backgound-color;
+  transition-duration: 0.5s;
+}
+
+tooltip {
+  border-radius: 10px;
+  background-color: #fff;
+  opacity: 0.8;
+  padding: 20px;
+  margin: 0px;
+}
+
+tooltip label {
+  color: @color11;
+}
+
+#window {
+  background-color: #fff;
+  margin: 5px 15px 5px 0px;
+  padding: 2px 10px 1px 3px;
+  border-radius: 12px;
+  color: @background;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+}
+
+#taskbar {
+  background-color: transparent;
+  margin: 3px 15px 3px 0px;
+  padding: 2px 3px 1px 3px;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.8;
+  border: 3px solid #fff;
+}
+
+#taskbar button {
+  margin: 0;
+  padding: 0px 5px 0px 5px;
+}
+
+#clock,
+#pulseaudio {
+  background-color: @color11;
+  margin: 3px 15px 3px 0px;
+  padding: 1px 10px 0px 10px;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.8;
+  border: 3px solid #fff;
+}
+
+#pulseaudio.muted {
+  color: @color11;
+  background-color: #fff;
+}
+
+#cpu,
+#disk,
+#memory,
+#temperature,
+#network {
+  color: @color11;
+  background-color: #fff;
+  margin: 3px 15px 3px 0px;
+  padding: 1px 10px 0px 10px;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+#network.disconnected {
+  background-color: #f53c3c;
+}
