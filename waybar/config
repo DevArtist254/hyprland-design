@@ -10,8 +10,12 @@
   "include": [
     "~/.config/waybar/modules.json"
   ],
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
   "modules-left": [
-    "wlr/taskbar"
+    "wlr/taskbar",
+    "hyprland/window"
   ],
   "modules-right": [
     "network",

@@ -15,6 +15,19 @@
       "Foot Server": "Terminal"
     }
   },
+  "hyprland/workspaces": {
+    "on-click": "activate",
+    "all-outputs": true,
+    "format": "{icon}",
+    "format-icons": {
+      "urgent": "",
+      "active": "",
+      "default": ""
+    },
+    "persistent_workspaces": {
+      "*": 5
+    }
+  },
   "network": {
     "format": "{ifname}",
     "format-ethernet": "  {ipaddr} {bandwidthTotalBits}  ",
