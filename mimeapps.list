@@ -1,0 +1,10 @@
+[Added Associations]
+application/x-shellscript=code.desktop;
+text/x-dsrc=code.desktop;
+application/x-executable=code.desktop;
+application/x-zerosize=code.desktop;
+application/json=code.desktop;
+
+[Default Applications]
+application/x-executable=code.desktop
+application/x-zerosize=code.desktop
