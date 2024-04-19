@@ -14,16 +14,24 @@
     "hyprland/workspaces"
   ],
   "modules-left": [
+    "custom/wallpaper",
     "wlr/taskbar",
     "hyprland/window"
   ],
   "modules-right": [
     "network",
-    "temperature",
-    "cpu",
-    "memory",
-    "disk",
+    "custom/updates",
+    "group/hardware",
     "pulseaudio",
     "clock"
-  ]
+  ],
+  "group/hardware": {
+    "orientation": "horizontal",
+    "modules": [
+      "temperature",
+      "disk",
+      "cpu",
+      "memory"
+    ]
+  }
 }

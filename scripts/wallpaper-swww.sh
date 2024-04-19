@@ -1,4 +1,5 @@
 #!/bin/bash
+
 IMAGE_FOLDER="/home/devartist/.config/wallpaper"
 
 if [ ! -d "$IMAGE_FOLDER" ]; then

@@ -15,6 +15,11 @@
       "Foot Server": "Terminal"
     }
   },
+  "custom/wallpaper": {
+    "format": "",
+    "on-click": "~/.config/scripts/wallpaper-swww.sh",
+    "tooltip": false
+  },
   "hyprland/workspaces": {
     "on-click": "activate",
     "all-outputs": true,
@@ -56,25 +61,38 @@
     },
     "on-click": "pavucontrol"
   },
+  "custom/updates":{
+    "format": "{}",
+    "tooltip-format": "{}",
+    "escape": true,
+    "return-type": "json",
+    "exec": "~/.config/scripts/updates.sh",
+    "restart-interval": 60,
+    "tooltip" : false
+  },
   "temperature": {
     "format": "{temperatureC}°C ",
-    "interval": 1
+    "interval": 1,
+    "on-click" : "kitty -e htop"
   },
   "cpu": {
-    "format": " CPU {usage}%  ",
+    "format": " C {usage}%",
+    "on-click" : "kitty -e htop",
     "interval": 1,
     "tooltip": true,
     "tooltip-format": "{avg_frequency} GHz"
   },
   "memory": {
-    "format": " Memory {percentage}%",
+    "format": " M {percentage}%",
+    "on-click" : "kitty -e htop",
     "interval": 1,
     "tooltip": true,
     "tooltip-format": "{used} GiB"
   },
   "disk": {
     "interval": 30,
-    "format": " {percentage_free}% ",
+    "format": " D {percentage_free}% ",
+    "on-click" : "kitty -e htop",
     "path": "/",
     "tooltip": true,
     "tooltip-format": "used {used}, free {free} Disk"
