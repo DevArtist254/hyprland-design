@@ -4,7 +4,9 @@ text/x-dsrc=code.desktop;
 application/x-executable=code.desktop;
 application/x-zerosize=code.desktop;
 application/json=code.desktop;
+inode/directory=code.desktop;idea.desktop;
 
 [Default Applications]
 application/x-executable=code.desktop
 application/x-zerosize=code.desktop
+inode/directory=idea.desktop
